@@ -1,0 +1,32 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "Guo's Design System for simple web pages and blogs",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "lint": "stylelint --fix *.css && eslint --fix *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoyunhe/design-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/design-system/issues"
+  },
+  "homepage": "https://github.com/guoyunhe/design-system#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "serve": "^11.3.0",
+    "stylelint": "^13.0.0",
+    "stylelint-config-standard": "^19.0.0"
+  }
+}
